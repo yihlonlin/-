@@ -7,7 +7,7 @@ import re
 chrome_options = Options()
 chrome_options.add_argument('--headless')
 
-# 啟動webdrive
+# 啟動webdrive 這裡使用chromedriver需要另外下載
 driver = webdriver.Chrome(
     'C:\\Users\\JK251\\Desktop\\NLP_homework\\HW2\\chromedriver.exe')
 # get義大醫院網頁

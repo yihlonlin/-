@@ -35,6 +35,7 @@
 - 專題心得報告每人一份  
 - 專題分數總評(個人與分組成績):15%  
 - 專題助教:黃O如  
+![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project03_sample/demo/demo03.gif?raw=true)
 
 專題4. 使用LineBot 心情溫度計聊天機器人實作- 分組 (進階)  
 --

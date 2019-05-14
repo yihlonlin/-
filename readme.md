@@ -16,7 +16,7 @@
 - 專題心得報告每人一份  
 - 專題分數總評(個人成績):15%  
 - 專題助教:曾O軒  
-![](\Code\Sample\Project01_sample\demo\demo01.jpg)
+![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project01_sample/demo/demo01.jpg?raw=true)
 
 專題2. 使用網路爬蟲查詢義大醫師門診時間- 個人 (基礎)  
 --
@@ -25,8 +25,8 @@
 - 專題心得報告每人一份  
 - 專題分數總評(個人成績):15%  
 - 專題助教:曾O軒  
-![](\Code\Sample\Project02_sample\demo\demo02-1.jpg)
-![](\Code\Sample\Project02_sample\demo\demo02-2.png)
+![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project02_sample/demo/demo02-1.jpg?raw=true)
+![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project02_sample/demo/demo02-2.png?raw=true)
   
 專題3.  使用LineBot 查詢義大醫師門診時間- 個人 (基礎)  
 --
@@ -35,7 +35,6 @@
 - 專題心得報告每人一份  
 - 專題分數總評(個人與分組成績):15%  
 - 專題助教:黃O如  
-
 專題4. 使用LineBot 心情溫度計聊天機器人實作- 分組 (進階)  
 --
 - 專題實作畫面(上傳 youubo)  

@@ -73,6 +73,7 @@
 - 專題分數總評(個人與分組成績):15%  
 - 專題助教:曾O軒  
 ![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project04_sample/demo/demo04.gif?raw=true)
+![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project04_sample/demo/demo04-1.gif?raw=true)
 
 專題5.  使用 Google Voice Kit 語音助理門診查詢- 分組 (進階)  
 --

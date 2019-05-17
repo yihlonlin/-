@@ -1,0 +1,2 @@
+'Code/Sample/Project04_sample/glove.6B.100d.txt' filter=lfs diff=lfs merge=lfs -text
+'Code/Sample/Project04_sample/glove.6B.100d.txt.word2vec' filter=lfs diff=lfs merge=lfs -text

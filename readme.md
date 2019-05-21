@@ -4,12 +4,12 @@
 --
 課程名稱:自然語言處理
 --
-授課教師: 義守大學資訊工程系 林義隆老師
-修課人數:25人
-分組個數:13組
-旁聽人數:1人
-學生級別:大二/大三/大四/博士
-跨領域科系:資訊工程系/資訊管理/電腦與通訊/工業管理
+授課教師: 義守大學資訊工程系 林義隆老師  
+修課人數:25人  
+分組個數:13組  
+旁聽人數:1人  
+學生級別:大二/大三/大四/博士  
+跨領域科系:資訊工程系/資訊管理/電腦與通訊/工業管理  
 
 課程大綱
 --  
@@ -72,7 +72,6 @@
 - 專題心得報告每人一份  
 - 專題分數總評(個人與分組成績):15%  
 - 專題助教:曾O軒  
-![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project04_sample/demo/demo04.gif?raw=true)
 ![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project04_sample/demo/demo04-1.gif?raw=true)
 
 專題5.  使用 Google Voice Kit 語音助理門診查詢- 分組 (進階)  

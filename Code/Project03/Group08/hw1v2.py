@@ -1,4 +1,3 @@
-#hw3 為主要程式
 import jieba
 # jieba.set_dictionary("Ex01/dict.txt.big")
 import sys
@@ -10,8 +9,8 @@ import jieba.posseg as psg
 def findtext(tex):
     # 手動更改結巴分割詞句
     jieba.load_userdict("userdict.txt")
-    jieba.add_word('劉懿珊')
-    jieba.add_word('許成名')
+    #jieba.add_word('劉懿珊')
+    #jieba.add_word('許成名')
     # 開檔
     # file = open('data.txt', 'r')
 
@@ -28,13 +27,16 @@ def findtext(tex):
                 c.index(ax)
             except ValueError:
                 c.append(ax)
-    retext = str(c)
-    return retext
+    if c:
+        retext = str(c)
+        return retext
+    else:
+        return False
+
+    
     # print(c)
     # print(len(c))
 
-
-'''
-acs=findtext("楊森安醫師門診時間")
-print(type(acs))
-'''
+# acs=findtext("陳國熏醫師門診時間")
+# print(acs)
+ 

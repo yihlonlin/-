@@ -27,13 +27,16 @@ def findtext(tex):
                 c.index(ax)
             except ValueError:
                 c.append(ax)
-    retext = str(c)
-    return retext
+    if c:
+        retext = str(c)
+        return retext
+    else:
+        return False
+
+    
     # print(c)
     # print(len(c))
 
-
-'''
-acs=findtext("楊森安醫師門診時間")
-print(type(acs))
-'''
+# acs=findtext("陳國熏醫師門診時間")
+# print(acs)
+ 

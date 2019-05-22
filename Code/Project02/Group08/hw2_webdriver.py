@@ -31,23 +31,31 @@ while True:
     if search_name == "q":
         break
     search_name = hw1v2.findtext(search_name)
+    if search_name ==False:
+        print("輸入有誤請再一次確認!")
     # 搜尋列表
-    rows = [x for x in table.findAll('tr') if x.find("td") != None]
-
-    data_list = []
-    for i in range(0, len(rows) - 1):
-        for j in range(1, 4):
-            if re.search(search_name, rows[i].findAll('td')[j].text) != None and re.search("已額滿", rows[i].findAll('td')[
-                j].text) == None:
-                data_list.append({
-                    '醫師姓名': search_name,
-                    '日期': rows[i].findAll('td')[0].text,
-                    '時段': rows[0].findAll('td')[j].text,
-                })
-
-    # 判斷和打印時間
-    if data_list:
-        for i in data_list:
-            print(i)
     else:
-        print("你所輸入的醫生進一個月都沒有門診")
+        rows = [x for x in table.findAll('tr') if x.find("td") != None]
+
+        data_list = []
+        try:
+            for i in range(0, len(rows) - 1):
+                for j in range(1, 4):
+
+                    if search_name[2:5] == rows[i].findAll('td')[j].text[0:3] and re.search("已額滿", rows[i].findAll('td')[
+                            j].text) == None:
+                        data_list.append({
+                            '醫師姓名': search_name,
+                            '日期': rows[i].findAll('td')[0].text,
+                            '時段': rows[0].findAll('td')[j].text,
+                        })
+        except:
+            print("輸入有誤請確認")
+ 
+
+        # 判斷和打印時間
+        if data_list:
+            for i in data_list:
+                print(i)
+        else:
+            print("你所輸入的醫生進一個月都沒有門診")

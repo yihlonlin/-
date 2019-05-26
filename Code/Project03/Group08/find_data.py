@@ -6,6 +6,7 @@ import hw1v2
 
 
 def find_time(search_name):
+    #get網頁
     sees = requests.Session()
     sees.get('https://www5.edah.org.tw/MainDept.aspx?Hospital=EDAH')
     getdata = sees.get(

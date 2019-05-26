@@ -4,6 +4,7 @@ from bs4 import BeautifulSoup
 import hw1v2
 import time
 import re
+#get網頁
 sees = requests.Session()
 sees.get('https://www5.edah.org.tw/MainDept.aspx?Hospital=EDAH')
 getdata = sees.get('https://www5.edah.org.tw/RegisterChooseOption.aspx?Hospital=EDAH&deptCode=63&deptDesc=%e7%9a%ae%e8%86%9a%e7%a7%91&stockCode=O_CE&eng_deptDesc=Division+of+Dermatology')

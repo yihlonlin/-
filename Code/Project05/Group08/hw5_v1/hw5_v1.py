@@ -11,6 +11,8 @@ import re
 from pygame import mixer
 from gtts import gTTS
 import tempfile
+import jieba
+
 """
 This demo file shows you how to use the new_message_callback to interact with
 the recorded audio after a keyword is spoken. It uses the speech recognition
@@ -85,7 +87,7 @@ model = sys.argv[1]
 
 # capture SIGINT signal, e.g., Ctrl+C
 signal.signal(signal.SIGINT, signal_handler)
-
+jieba.load_userdict("userdict.txt")
 detector = snowboydecoder.HotwordDetector(model, sensitivity=0.50)
 print('Listening... Press Ctrl+C to exit')
 

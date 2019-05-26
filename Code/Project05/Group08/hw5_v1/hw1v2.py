@@ -9,9 +9,9 @@ import re
 
 def findtext(tex):
     # 手動更改結巴分割詞句
-    jieba.load_userdict("userdict.txt")
-    jieba.add_word('劉懿珊')
-    jieba.add_word('許成名')
+    #jieba.load_userdict("userdict.txt")
+    #jieba.add_word('劉懿珊')
+    #jieba.add_word('許成名')
     # 開檔
     # file = open('data.txt', 'r')
 

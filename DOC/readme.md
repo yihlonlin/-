@@ -1,6 +1,6 @@
 修課名單與學習路徑
 ==
-![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/image/learnmpa.jpg?raw=true)  
+![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/image/list.jpg?raw=true)  
 
 修課學生參與五個計畫、兩個競賽與發表一篇研討會[\*有修課學生]
 --

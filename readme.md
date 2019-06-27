@@ -101,6 +101,7 @@
 - 專題分數總評(個人與分組成績):15%  
 - 專題助教:黃O維  
 ![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project05_sample/demo/demo05.jpg?raw=true)  
+![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project05_sample/demo/demo05.gif?raw=true)  
 
     
 專題6. 使用深度學習實作骨鬆病例分類- 分組 (進階)  

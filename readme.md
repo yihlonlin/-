@@ -100,7 +100,6 @@
 - 專題心得報告每人一份  
 - 專題分數總評(個人與分組成績):15%  
 - 專題助教:黃O維  
-![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project05_sample/demo/demo05.jpg?raw=true)  
 ![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/Code/Sample/Project05_sample/demo/demo05.gif?raw=true)  
 
     

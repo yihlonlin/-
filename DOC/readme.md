@@ -1,6 +1,6 @@
 ![](https://github.com/yihlonlin/Natural-Language-Processing/blob/master/image/list.jpg?raw=true)  
 
-修課學生參與五個計畫、兩個競賽與發表一篇研討會[\*有修課學生]
+修課學生參與四個計畫、兩個競賽與發表一篇研討會[\*有修課學生]
 --
 
 | **日期** | **屬性** | **名稱** | **計劃參與人員及學生** | **執行狀況** |
